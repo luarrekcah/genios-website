@@ -9,5 +9,3 @@ Fazer as alterações e sempre estar atualizando o repositório local com a núv
 Manter atualizado:
 
 - `git pull`
-
-

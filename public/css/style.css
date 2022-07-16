@@ -6,6 +6,25 @@
   --primary-color: #998601;
 }
 
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border: 4.1px none #525252;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+::-webkit-scrollbar-track {
+  background: #ebebeb;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
