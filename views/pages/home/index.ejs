@@ -1,26 +1,35 @@
-<%- include("../../partials/header.ejs") %> 
+<%- include("../../partials/header.ejs") %>
     <div class="slider_area">
         <div class="slider_active owl-carousel">
             <!--SLIDER-->
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3>Nós somos a Gênios</h3>
-                                <p>Elevando sua marca ao <b style="color: white;">próximo nível</b>, qualidade e profissionalismo <br> 
-                                    <b style="color: white;">igualando</b> a gigantes do mercado!</p>
-                                <div class="video_service_btn">
-                                    <a href="/servicos" class="boxed-btn3">Nossos Serviços</a>
-                                    <a href="/contato" class="boxed-btn3-white"> <i class="fa fa-play"></i>
-                                        Explorar as redes</a>
+            <% dbData.banners.forEach((item, i)=> { %>
+                <div class="single_slider  d-flex align-items-center overlay2"
+                    style="background-image: url(<%=item.image%>);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="slider_text ">
+                                    <h3>
+                                        <%=item.title%>
+                                    </h3>
+                                    <p>
+                                        <%=item.description%>
+                                    </p>
+                                    <div class="video_service_btn">
+                                        <% item.buttons.forEach((button, i)=> { %>
+                                            <a href="<%=button.href%>" class="boxed-btn3-white"> <i
+                                                    class="fa fa-<%=button.icon%>"></i>
+                                                <%=button.title%>
+                                            </a>
+                                            <%})%>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--SLIDER-->
+                <% })%>
+                    <!--SLIDER-->
         </div>
     </div>
     <div class="service_area">
@@ -53,11 +62,11 @@
                             <img src="img/svg_icon/case.svg" alt="">
                             <h3>Programação & Marketing Digital</h3>
                             <div class="hover_content">
-                                    <div class="hover_content_inner">
-                                        <h4>Programação & Marketing Digital</h4>
-                                        <p>Desc</p>
-                                    </div>
+                                <div class="hover_content_inner">
+                                    <h4>Programação & Marketing Digital</h4>
+                                    <p>Desc</p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,11 +76,11 @@
                             <img src="img/svg_icon/survey.svg" alt="">
                             <h3>Design Gráfico</h3>
                             <div class="hover_content">
-                                    <div class="hover_content_inner">
-                                        <h4>Design Gráfico</h4>
-                                        <p>Desc</p>
-                                    </div>
+                                <div class="hover_content_inner">
+                                    <h4>Design Gráfico</h4>
+                                    <p>Desc</p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,7 +116,7 @@
             <div class="row">
                 <div class="col-xl-4 col-md-4">
                     <div class="single_counter text-center">
-                        <h3> <span class="counter" >622</span> <span>+</span> </h3>
+                        <h3> <span class="counter">622</span> <span>+</span> </h3>
                         <span>Projetos Totais</span>
                     </div>
                 </div>
@@ -118,86 +127,86 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                        <div class="section_title text-center mb-50">
-                                <h3>Trabalhos Recentes</h3>
-                                <p>Dá uma olhada!</p>
-                            </div>
+                    <div class="section_title text-center mb-50">
+                        <h3>Trabalhos Recentes</h3>
+                        <p>Dá uma olhada!</p>
+                    </div>
                 </div>
             </div>
             <div class="row grid">
-                    <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
-                        <div class="single-gallery mb-20">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/1.jpg" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                    <a  href="portfolio_details.html" class="hover_inner">
-                                            <h3>Product Branding</h3>
-                                            <span>Branding</span>
-                                    </a>
-                                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/1.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat3 cat4 col-md-6">
-                        <div class="single-gallery mb-20">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/2.jpg" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                    <a  href="portfolio_details.html" class="hover_inner">
-                                            <h3>Product Branding</h3>
-                                            <span>Branding</span>
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
-                        <div class="single-gallery mb-20">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/3.jpg" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                    <a  href="portfolio_details.html" class="hover_inner">
-                                            <h3>Product Branding</h3>
-                                            <span>Branding</span>
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 col-lg-6 grid-item cat2 col-md-6">
-                        <div class="single-gallery mb-20">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/4.jpg" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                <a  href="portfolio_details.html" class="hover_inner">
-                                            <h3>Product Branding</h3>
-                                            <span>Branding</span>
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-                        <div class="single-gallery mb-20">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/5.jpg" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                <a  href="portfolio_details.html" class="hover_inner">
-                                        <h3>Product Branding</h3>
-                                        <span>Branding</span>
-                                </a>
-                            </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="More_Works_btn text-center">
-                            <a class="boxed-btn3-green-2" href="#">Mais Trabalhos</a>
+                <div class="col-xl-4 col-lg-6 grid-item cat3 cat4 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/2.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/3.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-6 grid-item cat2 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/4.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/5.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="More_Works_btn text-center">
+                        <a class="boxed-btn3-green-2" href="#">Mais Trabalhos</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="about_wrap_area about_bg_1">
@@ -223,8 +232,8 @@
                     <div class="single_service_wrap text-center">
                         <img src="img/svg_icon/puzzle.svg" alt="">
                         <h3>Equipe</h3>
-                        <p>Possuímos na equipe Designers Gráficos e Desenvolvedores profissionais 
-                        com anos atuando no mercado.
+                        <p>Possuímos na equipe Designers Gráficos e Desenvolvedores profissionais
+                            com anos atuando no mercado.
                         </p>
                     </div>
                 </div>
@@ -238,15 +247,15 @@
                     <div class="financial_active owl-carousel">
                         <div class="single_finalcial_wrap">
                             <h3>Slide um</h3>
-                                    <p>desc</p>
+                            <p>desc</p>
                         </div>
                         <div class="single_finalcial_wrap">
                             <h3>Slide dois</h3>
-                                    <p>desc</p>
+                            <p>desc</p>
                         </div>
                         <div class="single_finalcial_wrap">
                             <h3>Slide tres</h3>
-                                    <p>desc</p>
+                            <p>desc</p>
                         </div>
                     </div>
                 </div>
@@ -271,4 +280,4 @@
             </div>
         </div>
     </div>
-    <%- include("../../partials/footer.ejs") %> 
+    <%- include("../../partials/footer.ejs") %>

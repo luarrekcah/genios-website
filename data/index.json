@@ -13,16 +13,22 @@
             "image":"../img/banner/banner1.jpg",
             "buttons": [
                 {
-                    "type":"normal",
+                    "icon":"tools",
                     "title":"Nossos Serviços",
                     "href":"/servicos"
                 },
                 {
-                    "type":"video",
+                    "icon":"group",
                     "title":"Explorar As Redes",
                     "href":"/contato"
                 }
             ]
+        }
+    ],
+    "counters":[
+        {
+            "title":"Projetos Totais",
+            "value":"622"
         }
     ],
     "portfolio": [
@@ -33,5 +39,22 @@
             "image":""
         }
     ],
-    "blog": []
+    "blog": [],
+    "solutions":[
+        {
+            "title":"Identidade Visual",
+            "icon":"",
+            "image":""
+        },
+        {
+            "title":"Programação & Marketing Digital",
+            "icon":"",
+            "image":""
+        },
+        {
+            "title":"Design Gráfico",
+            "icon":"",
+            "image":""
+        }
+    ]
 }
