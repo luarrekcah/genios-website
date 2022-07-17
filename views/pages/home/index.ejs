@@ -41,21 +41,27 @@
             </div>
             <div class="row">
                 <% dbData.solutions.forEach((item, i)=> { %>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service" style="background-image: url(<%=item.image%>);">
-                        <div class="service_hover">
-                            <img src="<%=item.icon%>" alt="">
-                            <h3><%=item.title%></h3>
-                            <div class="hover_content">
-                                <div class="hover_content_inner">
-                                    <h4><%=item.title%></h4>
-                                    <p><%=item.desc%></p>
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single_service" style="background-image: url(<%=item.image%>);">
+                            <div class="service_hover">
+                                <img src="<%=item.icon%>" alt="">
+                                <h3>
+                                    <%=item.title%>
+                                </h3>
+                                <div class="hover_content">
+                                    <div class="hover_content_inner">
+                                        <h4>
+                                            <%=item.title%>
+                                        </h4>
+                                        <p>
+                                            <%=item.desc%>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <%})%>
+                    <%});%>
             </div>
         </div>
     </div>
@@ -86,12 +92,18 @@
     <div class="counter_area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_counter text-center">
-                        <h3> <span class="counter">622</span> <span>+</span> </h3>
-                        <span>Projetos Totais</span>
+                <% dbData.counters.forEach((item, i)=> { %>
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single_counter text-center">
+                            <h3> <span class="counter">
+                                    <%=item.value%>
+                                </span> <span>+</span> </h3>
+                            <span>
+                                <%=item.title%>
+                            </span>
+                        </div>
                     </div>
-                </div>
+                    <%});%>
             </div>
         </div>
     </div>
