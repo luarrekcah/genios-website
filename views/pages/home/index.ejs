@@ -1,7 +1,6 @@
 <%- include("../../partials/header.ejs") %>
     <div class="slider_area">
         <div class="slider_active owl-carousel">
-            <!--SLIDER-->
             <% dbData.banners.forEach((item, i)=> { %>
                 <div class="single_slider  d-flex align-items-center overlay2"
                     style="background-image: url(<%=item.image%>);">
@@ -29,7 +28,6 @@
                     </div>
                 </div>
                 <% })%>
-                    <!--SLIDER-->
         </div>
     </div>
     <div class="service_area">
@@ -42,48 +40,22 @@
                 </div>
             </div>
             <div class="row">
+                <% dbData.solutions.forEach((item, i)=> { %>
                 <div class="col-xl-4 col-md-4">
-                    <div class="single_service service_bg_1">
+                    <div class="single_service" style="background-image: url(<%=item.image%>);">
                         <div class="service_hover">
-                            <img src="img/svg_icon/legal-paper.svg" alt="">
-                            <h3>Identidade Visual</h3>
+                            <img src="<%=item.icon%>" alt="">
+                            <h3><%=item.title%></h3>
                             <div class="hover_content">
                                 <div class="hover_content_inner">
-                                    <h4>Identidade Visual</h4>
-                                    <p>Desc</p>
+                                    <h4><%=item.title%></h4>
+                                    <p><%=item.desc%></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service service_bg_2">
-                        <div class="service_hover">
-                            <img src="img/svg_icon/case.svg" alt="">
-                            <h3>Programação & Marketing Digital</h3>
-                            <div class="hover_content">
-                                <div class="hover_content_inner">
-                                    <h4>Programação & Marketing Digital</h4>
-                                    <p>Desc</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service service_bg_3">
-                        <div class="service_hover">
-                            <img src="img/svg_icon/survey.svg" alt="">
-                            <h3>Design Gráfico</h3>
-                            <div class="hover_content">
-                                <div class="hover_content_inner">
-                                    <h4>Design Gráfico</h4>
-                                    <p>Desc</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <%})%>
             </div>
         </div>
     </div>

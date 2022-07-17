@@ -43,18 +43,21 @@
     "solutions":[
         {
             "title":"Identidade Visual",
-            "icon":"",
-            "image":""
+            "icon":"img/svg_icon/legal-paper.svg",
+            "image":"../img/about/1.jpg",
+            "desc":""
         },
         {
             "title":"Programação & Marketing Digital",
-            "icon":"",
-            "image":""
+            "icon":"img/svg_icon/case.svg",
+            "image":"../img/about/2.jpg",
+            "desc":""
         },
         {
             "title":"Design Gráfico",
-            "icon":"",
-            "image":""
+            "icon":"img/svg_icon/survey.svg",
+            "image":"../img/about/3.jpg",
+            "desc":""
         }
     ]
 }
