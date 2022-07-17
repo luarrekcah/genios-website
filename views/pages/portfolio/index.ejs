@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="bradcam_text text-center">
-                    <h3>Portfolio</h3>
+                    <h3>Porfólio</h3>
                 </div>
             </div>
         </div>
@@ -13,110 +13,29 @@
 <div class="gallery_area">
     <div class="container">
         <div class="row grid">
+            <% dbData.portfolio.forEach((item, i)=> { %>
                 <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
                     <div class="single-gallery mb-20">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/1.png" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                <a  href="portfolio_details.html" class="hover_inner">
-                                        <h3>Product Branding</h3>
-                                        <span>Branding</span>
-                                </a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 grid-item cat3 cat4 col-md-6">
-                    <div class="single-gallery mb-20">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/2.png" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                <a  href="portfolio_details.html" class="hover_inner">
-                                        <h3>Product Branding</h3>
-                                        <span>Branding</span>
-                                </a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
-                    <div class="single-gallery mb-20">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/3.png" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                <a  href="portfolio_details.html" class="hover_inner">
-                                        <h3>Product Branding</h3>
-                                        <span>Branding</span>
-                                </a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-xl-8 col-lg-6 grid-item cat2 col-md-6">
-                    <div class="single-gallery mb-20">
                         <div class="portfolio-img">
-                                <img src="img/gallery/4.png" alt="">
+                            <img src="<%=item.image%>" alt="">
                         </div>
                         <div class="gallery_hover">
-                            <a  href="portfolio_details.html" class="hover_inner">
-                                        <h3>Product Branding</h3>
-                                        <span>Branding</span>
-                                </a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-                    <div class="single-gallery mb-20">
-                        <div class="portfolio-img">
-                                <img src="img/gallery/5.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <a  href="portfolio_details.html" class="hover_inner">
-                                    <h3>Product Branding</h3>
-                                    <span>Branding</span>
+                            <a href="/porfolio/detalhes/<%=item.id%>" class="hover_inner">
+                                <h3><%=item.title%></h3>
+                                <span><%=item.desc%></span>
                             </a>
                         </div>
                     </div>
                 </div>
+                <%});%>
             </div>
             <div class="row">
                 <div class="col-xl-12">
                     <div class="More_Works_btn text-center">
-                        <a class="boxed-btn3-green-2" href="#">More Works</a>
+                        <a class="boxed-btn3-green-2" href="/portfolio">Mais Trabalhos</a>
                     </div>
                 </div>
             </div>
-    </div>
-</div>
-<div class="testmonial_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-10 offset-xl-1">
-                    <div class="testmonial_active2 owl-carousel">
-                        <div  class="single_slider text-center" data-dot='<img src="img/testmonial/1.png" alt="#" ' >
-                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able.</p>
-                                <div class="author_name text-center">
-                                    <h4>Robert Jonson</h4>
-                                    <span> Business Owner</span>
-                                </div>
-                            </div>
-                        <div  class="single_slider text-center" data-dot='<img src="img/testmonial/1.png" alt="#" ' >
-                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able.</p>
-                                <div class="author_name text-center">
-                                    <h4>Robert Jonson</h4>
-                                    <span> Business Owner</span>
-                                </div>
-                            </div>
-                        <div  class="single_slider text-center" data-dot='<img src="img/testmonial/1.png" alt="#" ' >
-                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able.</p>
-                                <div class="author_name text-center">
-                                    <h4>Robert Jonson</h4>
-                                    <span> Business Owner</span>
-                                </div>
-                            </div>
-                    </div>
-            </div>
-        </div>
     </div>
 </div>
 <%- include("../../partials/footer.ejs") %> 
