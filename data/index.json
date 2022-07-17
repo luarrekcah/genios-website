@@ -1,0 +1,37 @@
+{
+    "basicInfos":{
+        "email":"genios.publicidade@gmail.com ",
+        "phone":"+55 68 99222-8746",
+        "facebook":"https://fb.me/agenciagenios",
+        "whatsapp":"https://wa.me/+556892228746",
+        "instagram":"https://www.instagram.com/agencia.genios/"
+    },
+    "banners":[
+        {
+            "title":"Nós Somos A Gênios",
+            "description":"Elevando sua marca ao próximo nível, qualidade e profissionalismo igualando a gigantes do mercado!",
+            "image":"../img/banner/banner1.jpg",
+            "buttons": [
+                {
+                    "type":"normal",
+                    "title":"Nossos Serviços",
+                    "href":"/servicos"
+                },
+                {
+                    "type":"video",
+                    "title":"Explorar As Redes",
+                    "href":"/contato"
+                }
+            ]
+        }
+    ],
+    "portfolio": [
+        {
+            "id":"",
+            "title":"",
+            "desc":"",
+            "image":""
+        }
+    ],
+    "blog": []
+}
