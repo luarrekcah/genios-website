@@ -83,5 +83,7 @@
             "image":"../img/about/3.jpg",
             "desc":""
         }
-    ]
+    ],
+    "aboutItems":[],
+    "aboutSlides":[]
 }
