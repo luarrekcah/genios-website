@@ -93,6 +93,27 @@
         }
     ],
     "aboutItems":[],
-    "aboutSlides":[],
+    "aboutSlides":[
+        {
+            "title":"Materiais Gráficos",
+            "desc":"Entregas em AI, CDR, PNG, PDF, e qualquer outro formato da escolha do cliente"
+        },
+        {
+            "title":"Tecnologias de Anúncio",
+            "desc":"Google Ads, Meta Ads (Facebook, Instagram) e parceiros"
+        },
+        {
+            "title":"Tecnologias de Desenvolvimento",
+            "desc":"Express, Firebase, Nodejs, React, React Native, EJS e outros"
+        },
+        {
+            "title":"Tecnologias de Design e Manipulação de Mídia",
+            "desc":"Photoshop, CorelDRAW, Adobe After Effects, Adobe Ilustrator, Cinema 4d e outros"
+        },
+        {
+            "title":"Tecnologias NFC / QRcode",
+            "desc":"NFC será um componente interno/externo no cartão no qual será registrado sua página com dados para que o cliente veja, o QRcode funciona da mesma maneira."
+        }
+    ],
     "services":[]
 }

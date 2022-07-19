@@ -195,18 +195,12 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="financial_active owl-carousel">
+                        <% dbData.aboutSlides.forEach((item, i)=> { %>
                         <div class="single_finalcial_wrap">
-                            <h3>Slide um</h3>
-                            <p>desc</p>
+                            <h3><%=item.title%></h3>
+                            <p><%=item.desc%></p>
                         </div>
-                        <div class="single_finalcial_wrap">
-                            <h3>Slide dois</h3>
-                            <p>desc</p>
-                        </div>
-                        <div class="single_finalcial_wrap">
-                            <h3>Slide tres</h3>
-                            <p>desc</p>
-                        </div>
+                        <%});%>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
