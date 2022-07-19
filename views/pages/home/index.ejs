@@ -130,10 +130,11 @@
             </div>
             <div class="row grid">
                 <% dbData.portfolio.forEach((item, i)=> { %>
+                    <% if(i >= 3) return; %> 
                     <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
                         <div class="single-gallery mb-20">
                             <div class="portfolio-img">
-                                <img src="<%=item.image%>" alt="">
+                                <img src="<%=item.image%>" alt="Amostra <%=item.title%>">
                             </div>
                             <div class="gallery_hover">
                                 <a href="/porfolio/detalhes/<%=item.id%>" class="hover_inner">
