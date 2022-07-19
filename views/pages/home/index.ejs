@@ -75,10 +75,21 @@
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_info">
-                        <h3>Título</h3>
-                        <p>Desc</p>
+                        <h3>Do ZERO até a transparência no Google</h3>
+                        <p>
+                            Está começando sua empresa agora e não tem a mínima ideia <br> 
+                            do que fazer ou com quem fazer? Calma, pensando dessa forma <br>
+                            que a Gênios se originou, somos designers e desenvolvedores <br> 
+                            com anos de mercado prontos para alavancar a imagem da sua <br>
+                            nova (ou já existente) empresa, com diversas soluções!
+                        </p>
                         <ul>
-                            <li>ITEM</li>
+                            <li>Identidade Visual (Logo e materiais de identidade)</li>
+                            <li>Flyers Estáticos e Motion</li>
+                            <li>Crachá e Farda</li>
+                            <li>Cartão Visita com QR code e aproximação</li>
+                            <li>Site, App e Anúncios</li>
+                            <li>E muitos outros!</li>
                         </ul>
 
                         <div class="about_btn">
@@ -119,20 +130,24 @@
             </div>
             <div class="row grid">
                 <% dbData.portfolio.forEach((item, i)=> { %>
-                <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
-                    <div class="single-gallery mb-20">
-                        <div class="portfolio-img">
-                            <img src="<%=item.image%>" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <a href="/porfolio/detalhes/<%=item.id%>" class="hover_inner">
-                                <h3><%=item.title%></h3>
-                                <span><%=item.desc%></span>
-                            </a>
+                    <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
+                        <div class="single-gallery mb-20">
+                            <div class="portfolio-img">
+                                <img src="<%=item.image%>" alt="">
+                            </div>
+                            <div class="gallery_hover">
+                                <a href="/porfolio/detalhes/<%=item.id%>" class="hover_inner">
+                                    <h3>
+                                        <%=item.title%>
+                                    </h3>
+                                    <span>
+                                        <%=item.desc%>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <%});%>
+                    <%});%>
             </div>
             <div class="row">
                 <div class="col-xl-12">
