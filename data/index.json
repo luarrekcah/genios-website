@@ -71,7 +71,15 @@
             "image":"img/gallery/5.jpg"
         }
     ],
-    "blog": [],
+    "blog": [
+        {
+            "id":"bem-vindo",
+            "title":"Inauguração da Gênios!",
+            "banner":"",
+            "desc":"Olá internauta, estamos felizes em lhe ter aqui!",
+            "innerHTML":"<p><strong>Bem vindo</strong> ao nosso site! Recentemente inauguramos oficialmente a G&ecirc;nios.</p><p>&nbsp;</p><p>Explore o nosso site!</p>"
+        }
+    ],
     "solutions":[
         {
             "title":"Identidade Visual",
