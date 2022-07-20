@@ -14,4 +14,18 @@ router.get("/", (req, res) => {
     res.render("pages/blog", data);
 });
 
+router.get("/post/:id", (req, res) => {
+  const post = dbData.blog.find((item) => item.id === req.params.id);
+  const data = {
+    dbData,
+    post,
+    og: {
+      title: "",
+      desc: "",
+      banner: "",
+    },
+  }; 
+  res.render("pages/blog", data);
+});
+
 module.exports = router;
