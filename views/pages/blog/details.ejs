@@ -33,7 +33,8 @@
                </div>
                <div class="navigation-top">
                   <div class="d-sm-flex justify-content-between text-center">
-                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> FULANO E MAIS 4 CURTIRAM</p>
+                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> FULANO E MAIS 4
+                        CURTIRAM</p>
                      <div class="col-sm-4 text-center my-2 my-sm-0">
                         <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
                      </div>
@@ -101,108 +102,113 @@
                </div>
                -->
                <div class="comments-area">
-                  
+                  <div class="fb-comments"
+                     data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%"
+                     data-numposts="1"></div>
                </div>
             </div>
             <div class="col-lg-4">
                <div class="blog_right_sidebar">
                   <aside class="single_sidebar_widget search_widget">
-                      <form action="#">
-                          <div class="form-group">
-                              <div class="input-group mb-3">
-                                  <input type="text" class="form-control" placeholder='Pesquisa'
-                                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Pesquisa'">
-                                  <div class="input-group-append">
-                                      <button class="btn" type="button"><i class="ti-search"></i></button>
-                                  </div>
+                     <form action="#">
+                        <div class="form-group">
+                           <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder='Pesquisa'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Pesquisa'">
+                              <div class="input-group-append">
+                                 <button class="btn" type="button"><i class="ti-search"></i></button>
                               </div>
-                          </div>
-                          <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                              type="submit">Pesquisar</button>
-                      </form>
+                           </div>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Pesquisar</button>
+                     </form>
                   </aside>
                   <aside class="single_sidebar_widget post_category_widget">
-                      <h4 class="widget_title">Categoria</h4>
-                      <ul class="list cat-list">
-                          <!--CATEGORIA-->
-                          <li>
-                              <a href="#" class="d-flex">
-                                  <p>Teste</p>
-                                  <p>(37)</p>
-                              </a>
-                          </li>
-                          <!--CATEGORIA-->
-                      </ul>
+                     <h4 class="widget_title">Categoria</h4>
+                     <ul class="list cat-list">
+                        <!--CATEGORIA-->
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Teste</p>
+                              <p>(37)</p>
+                           </a>
+                        </li>
+                        <!--CATEGORIA-->
+                     </ul>
                   </aside>
                   <aside class="single_sidebar_widget popular_post_widget">
-                      <h3 class="widget_title">Posts Recentes</h3>
-                      <% dbData.blog.forEach((item, i) => { %>
-                      <div class="media post_item">
-                          <img src="<%=item.banner%>" width="100" alt="post">
-                          <div class="media-body">
+                     <h3 class="widget_title">Posts Recentes</h3>
+                     <% dbData.blog.forEach((item, i)=> { %>
+                        <div class="media post_item">
+                           <img src="<%=item.banner%>" width="100" alt="post">
+                           <div class="media-body">
                               <a href="/blog/post/<%=item.id%>">
-                                  <h3><%=item.title%></h3>
+                                 <h3>
+                                    <%=item.title%>
+                                 </h3>
                               </a>
-                              <p><%=item.date.day%>, <%=item.date.month%></p>
-                          </div>
-                      </div>
-                      <% }); %>
+                              <p>
+                                 <%=item.date.day%>, <%=item.date.month%>
+                              </p>
+                           </div>
+                        </div>
+                        <% }); %>
                   </aside>
                   <aside class="single_sidebar_widget tag_cloud_widget">
-                      <h4 class="widget_title">Tags</h4>
-                      <ul class="list">
-                          <li>
-                              <a href="#">Flyer</a>
-                          </li>
-                          <li>
-                              <a href="#">Logotipos</a>
-                          </li>
-                          <li>
-                              <a href="#">Motion</a>
-                          </li>
-                          <li>
-                              <a href="#">Design Gráfico</a>
-                          </li>
-                          <li>
-                              <a href="#">Marketing</a>
-                          </li>
-                          <li>
-                              <a href="#">Programação</a>
-                          </li>
-                          <li>
-                              <a href="#">Desenvolvimento</a>
-                          </li>
-                          <li>
-                              <a href="#">Web</a>
-                          </li>
-                      </ul>
+                     <h4 class="widget_title">Tags</h4>
+                     <ul class="list">
+                        <li>
+                           <a href="#">Flyer</a>
+                        </li>
+                        <li>
+                           <a href="#">Logotipos</a>
+                        </li>
+                        <li>
+                           <a href="#">Motion</a>
+                        </li>
+                        <li>
+                           <a href="#">Design Gráfico</a>
+                        </li>
+                        <li>
+                           <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                           <a href="#">Programação</a>
+                        </li>
+                        <li>
+                           <a href="#">Desenvolvimento</a>
+                        </li>
+                        <li>
+                           <a href="#">Web</a>
+                        </li>
+                     </ul>
                   </aside>
                   <aside class="single_sidebar_widget instagram_feeds">
-                      <h4 class="widget_title">Posts no Instagram</h4>
-                      <ul class="instagram_row flex-wrap">
-                          <!--POST ITEM-->
-                          <li>
-                              <a href="#">
-                                  <img class="img-fluid" src="img/post/post_5.png" alt="">
-                              </a>
-                          </li>
-                          <!--POST ITEM-->
-                      </ul>
+                     <h4 class="widget_title">Posts no Instagram</h4>
+                     <ul class="instagram_row flex-wrap">
+                        <!--POST ITEM-->
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_5.png" alt="">
+                           </a>
+                        </li>
+                        <!--POST ITEM-->
+                     </ul>
                   </aside>
                   <aside class="single_sidebar_widget newsletter_widget">
-                      <h4 class="widget_title">Newsletter</h4>
+                     <h4 class="widget_title">Newsletter</h4>
 
-                      <form action="#">
-                          <div class="form-group">
-                              <input type="email" class="form-control" onfocus="this.placeholder = ''"
-                                  onblur="this.placeholder = 'Digite seu E-mail'" placeholder='Digite seu E-mail'
-                                  required>
-                          </div>
-                          <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                              type="submit">Inscrever-se</button>
-                      </form>
+                     <form action="#">
+                        <div class="form-group">
+                           <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                              onblur="this.placeholder = 'Digite seu E-mail'" placeholder='Digite seu E-mail' required>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Inscrever-se</button>
+                     </form>
                   </aside>
-              </div>
+               </div>
             </div>
          </div>
       </div>
