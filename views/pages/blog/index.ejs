@@ -15,14 +15,13 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
-                        <!--BLOG POST-->
                         <% dbData.blog.forEach((item, i) => { %>
                             <article class="blog_item">
                                 <div class="blog_item_img">
                                     <img class="card-img rounded-0" src="<%=item.banner%>" alt="">
                                     <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
+                                        <h3><%=item.date.day%></h3>
+                                        <p><%=item.date.month%></p>
                                     </a>
                                 </div>
                                 <div class="blog_details">
@@ -37,7 +36,6 @@
                                 </div>
                             </article>
                         <% }) %> 
-                        <!--BLOG POST-->
                         <nav class="blog-pagination justify-content-center d-flex">
                             <ul class="pagination">
                                 <li class="page-item">
@@ -92,18 +90,17 @@
                         </aside>
                         <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Posts Recentes</h3>
-                            <!--POST ITEM-->
+                            <% dbData.blog.forEach((item, i) => { %>
                             <div class="media post_item">
-                                <img src="img/post/post_1.png" alt="post">
+                                <img src="<%=item.banner%>" width="100" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
-                                        <h3>From life was you fish...</h3>
+                                    <a href="/blog/post/<%=item.id%>">
+                                        <h3><%=item.title%></h3>
                                     </a>
-                                    <p>January 12, 2019</p>
+                                    <p><%=item.date.day%>, <%=item.date.month%></p>
                                 </div>
                             </div>
-                            <!--POST ITEM-->
-
+                            <% }); %>
                         </aside>
                         <aside class="single_sidebar_widget tag_cloud_widget">
                             <h4 class="widget_title">Tags</h4>
