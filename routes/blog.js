@@ -25,7 +25,7 @@ router.get("/post/:id", (req, res) => {
       banner: "",
     },
   }; 
-  res.render("pages/blog", data);
+  res.render("pages/blog/details", data);
 });
 
 module.exports = router;
