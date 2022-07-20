@@ -77,6 +77,10 @@
             "title":"Inauguração da Gênios!",
             "banner":"https://scontent.fpvh4-1.fna.fbcdn.net/v/t39.30808-6/293652280_106805118773062_7077565660090533881_n.jpg?stp=dst-jpg_p526x395&_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHJGdSOJDPX63EOgFolprGduFkSJBS5POS4WRIkFLk85HfQ2lGW_fqts_afOsmLEBUUqgzrK0ADkXHbOSqsfd9i&_nc_ohc=lGVx_5ZDj9wAX8zrxkW&_nc_ht=scontent.fpvh4-1.fna&oh=00_AT9Zc_PB_VpnbZNBA7wGaeh-2-cYQ3bHQuyceueaQ43anw&oe=62DCB6EC",
             "desc":"Olá internauta, estamos felizes em lhe ter aqui!",
+            "date":{
+                "day":"20",
+                "month":"Jan"
+            },
             "innerHTML":"<p><strong>Bem vindo</strong> ao nosso site! Recentemente inauguramos oficialmente a G&ecirc;nios.</p><p>&nbsp;</p><p>Explore o nosso site!</p>"
         }
     ],

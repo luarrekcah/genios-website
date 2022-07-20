@@ -16,25 +16,27 @@
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
                         <!--BLOG POST-->
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="img/blog/single_blog_1.png" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Jan</p>
-                                </a>
-                            </div>
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Titulo</h2>
-                                </a>
-                                <p>Desc</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> ADEMES</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comentários</a></li>
-                                </ul>
-                            </div>
-                        </article>
+                        <% dbData.blog.forEach((item, i) => { %>
+                            <article class="blog_item">
+                                <div class="blog_item_img">
+                                    <img class="card-img rounded-0" src="<%=item.banner%>" alt="">
+                                    <a href="#" class="blog_item_date">
+                                        <h3>15</h3>
+                                        <p>Jan</p>
+                                    </a>
+                                </div>
+                                <div class="blog_details">
+                                    <a class="d-inline-block" href="/blog/post/<%=item.id%>">
+                                        <h2><%=item.title%></h2>
+                                    </a>
+                                    <p><%=item.desc%></p>
+                                    <ul class="blog-info-link">
+                                        <li><a href="#"><i class="fa fa-user"></i> ADEMES</a></li>
+                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comentários</a></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        <% }) %> 
                         <!--BLOG POST-->
                         <nav class="blog-pagination justify-content-center d-flex">
                             <ul class="pagination">
