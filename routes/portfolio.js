@@ -14,4 +14,19 @@ router.get("/", (req, res) => {
     res.render("pages/portfolio", data);
 });
 
+router.get("/:id", (req, res) => {
+  const project = dbData.portfolio.find((item) => item.id === req.params.id);
+  console.log(project);
+  const data = {
+    dbData,
+    project,
+    og: {
+      title: "",
+      desc: "",
+      banner: "",
+    },
+  }; 
+  res.render("pages/portfolio/details", data);
+});
+
 module.exports = router;
