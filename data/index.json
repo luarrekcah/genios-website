@@ -131,26 +131,26 @@
         {
             "title":"Criação de logotipo",
             "icon":"",
-            "image":"",
-            "desc":"",
-            "type":"Pagamento por mês",
+            "image":"https://neilpatel.com/wp-content/uploads/2019/07/profissional-em-criacao-de-logomarca.jpeg",
+            "desc":"Sua identidade, original e pronta para o registro de marcas.",
+            "type":"Pagamento Único",
             "footer":"Orçamento personalizado",
             "plans": [{}]
         },
         {
             "title":"Postagens para Redes Sociais",
             "icon":"",
-            "image":"",
-            "desc":"",
-            "type":"Pagamento por mês",
+            "image":"https://www.sunsetweb.com.br/img/posts/postagens/20180608152643057/800/152643080620181197.jpg",
+            "desc":"Flyers, Banners, Posts e mais!",
+            "type":"Pagamento Único",
             "footer":"Orçamento personalizado",
             "plans": [{}]
         },
         {
             "title":"Gestão de Redes Sociais",
             "icon":"",
-            "image":"",
-            "desc":"",
+            "image":"https://hotmart.com/media/2018/01/BLOG_boa-gestao-de-redes-sociais.png",
+            "desc":"Postagens semanais personalizadas que cabem no seu bolso e configurações.",
             "type":"Pagamento por mês",
             "footer":"Orçamento personalizado",
             "plans": [{}]
@@ -159,35 +159,35 @@
             "title":"Fachadas, outdoors, banners e mais",
             "icon":"",
             "image":"",
-            "desc":"",
-            "type":"Pagamento por mês",
+            "desc":"Todos os tipos de trabalhos gráficos disponíveis",
+            "type":"Pagamento Único",
             "footer":"Orçamento personalizado",
             "plans": [{}]
         },
         {
             "title":"Desenvolvimento de BOTs",
             "icon":"",
-            "image":"",
-            "desc":"",
-            "type":"Pagamento por mês",
+            "image":"https://itforum.com.br/wp-content/uploads/2018/02/ai_chatbot-1.jpg",
+            "desc":"Desenvolvimento de BOTs para WhatsApp, Instagram, Telegram, Discord e muito mais!",
+            "type":"Pagamento Único",
             "footer":"Orçamento personalizado",
             "plans": [{}]
         },
         {
             "title":"Desenvolvimento de sites",
             "icon":"",
-            "image":"",
-            "desc":"",
-            "type":"Pagamento por mês",
+            "image":"https://novonegocio.com.br/wp-content/uploads/2015/04/desenvolvimento_de_sites.jpg",
+            "desc":"Diversidade, com as funções que você deseja, desenvolvido por programadores que utilizam código.",
+            "type":"Pagamento Único + Manutenção & Host Mensal ",
             "footer":"Orçamento personalizado",
             "plans": [{}]
         },
         {
             "title":"Desenvolvimento de APPs",
             "icon":"",
-            "image":"",
-            "desc":"",
-            "type":"Pagamento por mês",
+            "image":"https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2016/04/escola-brasileira-de-games-desenvolvimento-de-apps-ferramentas.jpg",
+            "desc":"Seu app, do seu jeito, por profissionais experientes.",
+            "type":"Pagamento Único",
             "footer":"Orçamento personalizado",
             "plans": [{}]
         }
