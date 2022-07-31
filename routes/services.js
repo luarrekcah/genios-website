@@ -6,8 +6,8 @@ router.get("/", (req, res) => {
     const data = {
       dbData,
       og: {
-        title: "",
-        desc: "",
+        title: "Serviços",
+        desc: "Está em dúvida do que podemos fazer por você? Então consulte nossa página!",
         banner: "",
       },
     }; 
