@@ -21,8 +21,8 @@ router.get("/:id", (req, res) => {
     dbData,
     project,
     og: {
-      title: "",
-      desc: "",
+      title: "Projeto",
+      desc: "Informações do projeto",
       banner: "",
     },
   }; 
