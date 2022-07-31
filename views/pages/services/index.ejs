@@ -1,5 +1,6 @@
-<%- include("../../partials/header.ejs") %> 
-    <div class="bradcam_area" style="background-image: url('https://marquesfernandes.com/wp-content/uploads/2020/08/ferenc-almasi-c8h0n7fSTqs-unsplash-1024x690.jpg');">
+<%- include("../../partials/header.ejs") %>
+    <div class="bradcam_area"
+        style="background-image: url('https://marquesfernandes.com/wp-content/uploads/2020/08/ferenc-almasi-c8h0n7fSTqs-unsplash-1024x690.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -13,23 +14,35 @@
     <div class="service_area">
         <div class="container">
             <div class="row">
-                <!--CARD
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service service_bg_1">
-                        <div class="service_hover">
-                            <img src="img/svg_icon/legal-paper.svg" alt="">
-                            <h3>TITULO</h3>
-                            <div class="hover_content">
-                                <div class="hover_content_inner">
-                                    <h4>TITULO</h4>
-                                    <p>DESC</p>
+                <h1>Nossos Planos</h1>
+                <div class="card-deck">
+                    <%dbData.services.forEach((item, i)=> { %>
+                        <div class="col-sm-3">
+                            <div class="card" style="margin: 10px;">
+                                <div class="card-header">
+                                    <%=item.type%>
+                                </div>
+                                <img class="card-img-top" src=" <%=item.image%>" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <%=item.title%>
+                                    </h5>
+                                    <p class="card-text">
+                                        <%=item.desc%>
+                                    </p>
+                                    <a href="/servicos/<%=item.title%>" style="width: 100%;" class="btn btn-primary">Ver
+                                        planos</a>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">
+                                        <%=footer%>
+                                    </small>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <%})%>
                 </div>
-               CARD-->
             </div>
         </div>
     </div>
-    <%- include("../../partials/footer.ejs") %> 
+    <%- include("../../partials/footer.ejs") %>
