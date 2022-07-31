@@ -20,8 +20,8 @@ router.get("/post/:id", (req, res) => {
     dbData,
     post,
     og: {
-      title: "",
-      desc: "",
+      title: "Blog",
+      desc: "Saiba das últimas novidades da agência aqui!",
       banner: "",
     },
   }; 
