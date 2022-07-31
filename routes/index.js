@@ -1,6 +1,8 @@
 const express = require("express"),
   router = express.Router(),
-  dbData = require("../data");
+  fs = require("fs"),
+  dbData = require("../data"),
+  xml = fs.readFileSync(__dirname + '/../sitemap.xml');
 
 router.get("/", (req, res) => {
     const data = {
@@ -12,6 +14,11 @@ router.get("/", (req, res) => {
       },
     }; 
     res.render("pages/home", data);
+});
+
+router.get("/sitemap.xml", (req, res, next) => {
+  res.set("Content-Type", "text/xml");
+  res.send(xml);
 });
 
 module.exports = router;
