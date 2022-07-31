@@ -69,6 +69,30 @@
             "title":"Dia do Rock Centralnet",
             "desc":"Descrição",
             "image":"img/gallery/5.jpg"
+        },
+        {
+            "id":"camiseta-genios",
+            "title":"Camiseta Gênios",
+            "desc":"Descrição",
+            "image":"img/gallery/6.jpg"
+        },
+        {
+            "id":"viver-bem",
+            "title":"Viver Bem",
+            "desc":"Descrição",
+            "image":"img/gallery/7.jpg"
+        },
+        {
+            "id":"logo-vereador-belmont",
+            "title":"Logo Vereador Belmont",
+            "desc":"Descrição",
+            "image":"img/gallery/prévia-logo.png"
+        },
+        {
+            "id":"post-camisa-raifas",
+            "title":"Raifa's Propaganda Camisetas",
+            "desc":"Descrição",
+            "image":"img/gallery/raifas-post-1.jpg"
         }
     ],
     "blog": [
