@@ -89,19 +89,19 @@
             "title":"Identidade Visual",
             "icon":"img/svg_icon/legal-paper.svg",
             "image":"../img/about/1.jpg",
-            "desc":""
+            "desc":"A identidade profissional da sua empresa é tão importante quanto ser excelente em campo, a sua identidade diz ao seu cliente, o quão profissionais e confiáveis sua empresa é."
         },
         {
             "title":"Programação & Marketing Digital",
             "icon":"img/svg_icon/case.svg",
             "image":"../img/about/2.jpg",
-            "desc":""
+            "desc":"Nós somos programadores e designers, pronto para lhe atender e impulsionar sua empresa."
         },
         {
             "title":"Design Gráfico",
             "icon":"img/svg_icon/survey.svg",
             "image":"../img/about/3.jpg",
-            "desc":""
+            "desc":"Artes profissionais e gestão de redes para passar credibilidade ao cliente!"
         }
     ],
     "aboutItems":[],
