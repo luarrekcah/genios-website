@@ -47,7 +47,15 @@
                             Serviços
                         </h3>
                         <ul>
-                            <li><a href="#">ITEM</a></li>
+                            <%dbData.services.forEach((item, i)=> {%>
+                                <%if(i >= 3) return; %>
+                                <li><a href="#">
+                                        <%=item.title%>
+                                    </a></li>
+                                <% })%>
+                                <li><a href="/servicos">
+                                    E muito mais! Explore!
+                                </a></li>
                         </ul>
                     </div>
                 </div>
@@ -131,9 +139,9 @@
 
 <!-- JS here -->
 <div id="fb-root"></div>
-   <script async defer crossorigin="anonymous"
-      src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v14.0&appId=5556653197732798&autoLogAppEvents=1"
-      nonce="YOEfkwdi"></script>
+<script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v14.0&appId=5556653197732798&autoLogAppEvents=1"
+    nonce="YOEfkwdi"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="/js/vendor/jquery-1.12.4.min.js"></script>

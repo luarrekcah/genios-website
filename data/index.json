@@ -127,5 +127,48 @@
             "desc":"NFC será um componente interno/externo no cartão no qual será registrado sua página com dados para que o cliente veja, o QRcode funciona da mesma maneira."
         }
     ],
-    "services":[]
+    "services":[
+        {
+            "title":"Criação de logotipo",
+            "icon":"",
+            "image":"",
+            "desc":""
+        },
+        {
+            "title":"Postagens para Redes Sociais",
+            "icon":"",
+            "image":"",
+            "desc":""
+        },
+        {
+            "title":"Gestão de Redes Sociais",
+            "icon":"",
+            "image":"",
+            "desc":""
+        },
+        {
+            "title":"Fachadas, outdoors, banners e mais",
+            "icon":"",
+            "image":"",
+            "desc":""
+        },
+        {
+            "title":"Desenvolvimento de BOTs",
+            "icon":"",
+            "image":"",
+            "desc":""
+        },
+        {
+            "title":"Desenvolvimento de sites",
+            "icon":"",
+            "image":"",
+            "desc":""
+        },
+        {
+            "title":"Desenvolvimento de APPs",
+            "icon":"",
+            "image":"",
+            "desc":""
+        }
+    ]
 }
