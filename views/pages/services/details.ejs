@@ -1,0 +1,49 @@
+<%- include("../../partials/header.ejs") %>
+    <div class="bradcam_area"
+        style="background-image: url('https://marquesfernandes.com/wp-content/uploads/2020/08/ferenc-almasi-c8h0n7fSTqs-unsplash-1024x690.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>
+                            <%=service.title%>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <h1>Planos do Serviço</h1>
+                    <div class="card-deck mb-3 text-center">
+                        <% service.details.plansCards.forEach((item, i)=> { %>
+                            <div class="card mb-4 box-shadow">
+                                <div class="card-header">
+                                    <h4 class="my-0 font-weight-normal">
+                                        <%-item.head%>
+                                    </h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">
+                                        <%-item.value%>
+                                    </h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <% item.desc.forEach((itemli, i)=> { %>
+                                        <li>
+                                            <i class="fa fa-check"></i> <%=itemli%>
+                                        </li>
+                                        <%});%>
+                                    </ul>
+                                    <button type="button" class="btn btn-lg btn-block btn-primary">Solicitar</button>
+                                </div>
+                            </div>
+                            <% }); %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("../../partials/footer.ejs") %>

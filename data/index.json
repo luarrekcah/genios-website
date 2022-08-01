@@ -1,219 +1,311 @@
 {
-    "basicInfos":{
-        "email":"genios.publicidade@gmail.com ",
-        "phone":"+55 68 99222-8746",
-        "facebook":"https://fb.me/agenciagenios",
-        "whatsapp":"https://wa.me/+556892228746",
-        "instagram":"https://www.instagram.com/agencia.genios/"
+    "basicInfos": {
+        "email": "genios.publicidade@gmail.com ",
+        "phone": "+55 68 99222-8746",
+        "facebook": "https://fb.me/agenciagenios",
+        "whatsapp": "https://wa.me/+556892228746",
+        "instagram": "https://www.instagram.com/agencia.genios/"
     },
-    "banners":[
+    "banners": [
         {
-            "title":"Nós Somos A Gênios",
-            "description":"Elevando sua marca ao próximo nível, qualidade e profissionalismo igualando a gigantes do mercado!",
-            "image":"../img/banner/banner1.jpg",
+            "title": "Nós Somos A Gênios",
+            "description": "Elevando sua marca ao próximo nível, qualidade e profissionalismo igualando a gigantes do mercado!",
+            "image": "../img/banner/banner1.jpg",
             "buttons": [
                 {
-                    "icon":"tools",
-                    "title":"Nossos Serviços",
-                    "href":"/servicos"
+                    "icon": "tools",
+                    "title": "Nossos Serviços",
+                    "href": "/servicos"
                 },
                 {
-                    "icon":"group",
-                    "title":"Entrar em Contato",
-                    "href":"/contato"
+                    "icon": "group",
+                    "title": "Entrar em Contato",
+                    "href": "/contato"
                 }
             ]
         }
     ],
-    "counters":[
+    "counters": [
         {
-            "title":"Projetos Totais",
-            "value":"622"
+            "title": "Projetos Totais",
+            "value": "622"
         },
         {
-            "title":"Clientes Satisfeitos",
-            "value":"256"
+            "title": "Clientes Satisfeitos",
+            "value": "256"
         },
         {
-            "title":"Xícaras de Café",
-            "value":"1552"
+            "title": "Xícaras de Café",
+            "value": "1552"
         }
     ],
     "portfolio": [
         {
-            "id":"melhor-pizza",
-            "title":"A Melhor Pizza do Acre",
-            "desc":"Descrição",
-            "image":"img/gallery/1.jpg"
+            "id": "melhor-pizza",
+            "title": "A Melhor Pizza do Acre",
+            "desc": "Descrição",
+            "image": "img/gallery/1.jpg"
         },
         {
-            "id":"artesanal-simples",
-            "title":"Artesanal Simplê",
-            "desc":"Descrição",
-            "image":"img/gallery/2.jpg"
+            "id": "artesanal-simples",
+            "title": "Artesanal Simplê",
+            "desc": "Descrição",
+            "image": "img/gallery/2.jpg"
         },
         {
-            "id":"sabado-carnaval",
-            "title":"Sábado de Carnaval",
-            "desc":"Descrição",
-            "image":"img/gallery/3.jpg"
+            "id": "sabado-carnaval",
+            "title": "Sábado de Carnaval",
+            "desc": "Descrição",
+            "image": "img/gallery/3.jpg"
         },
         {
-            "id":"camisa-lapeste-esports",
-            "title":"Camisa E-Sports Lapeste",
-            "desc":"Descrição",
-            "image":"img/gallery/4.jpg"
+            "id": "camisa-lapeste-esports",
+            "title": "Camisa E-Sports Lapeste",
+            "desc": "Descrição",
+            "image": "img/gallery/4.jpg"
         },
         {
-            "id":"dia-do-rock-centralnet",
-            "title":"Dia do Rock Centralnet",
-            "desc":"Descrição",
-            "image":"img/gallery/5.jpg"
+            "id": "dia-do-rock-centralnet",
+            "title": "Dia do Rock Centralnet",
+            "desc": "Descrição",
+            "image": "img/gallery/5.jpg"
         },
         {
-            "id":"camiseta-genios",
-            "title":"Camiseta Gênios",
-            "desc":"Descrição",
-            "image":"img/gallery/6.jpg"
+            "id": "camiseta-genios",
+            "title": "Camiseta Gênios",
+            "desc": "Descrição",
+            "image": "img/gallery/6.jpg"
         },
         {
-            "id":"viver-bem",
-            "title":"Viver Bem",
-            "desc":"Descrição",
-            "image":"img/gallery/7.jpg"
+            "id": "viver-bem",
+            "title": "Viver Bem",
+            "desc": "Descrição",
+            "image": "img/gallery/7.jpg"
         },
         {
-            "id":"logo-vereador-belmont",
-            "title":"Logo Vereador Belmont",
-            "desc":"Descrição",
-            "image":"img/gallery/prévia-logo.png"
+            "id": "logo-vereador-belmont",
+            "title": "Logo Vereador Belmont",
+            "desc": "Descrição",
+            "image": "img/gallery/prévia-logo.png"
         },
         {
-            "id":"post-camisa-raifas",
-            "title":"Raifa's Propaganda Camisetas",
-            "desc":"Descrição",
-            "image":"img/gallery/raifas-post-1.jpg"
+            "id": "post-camisa-raifas",
+            "title": "Raifa's Propaganda Camisetas",
+            "desc": "Descrição",
+            "image": "img/gallery/raifas-post-1.jpg"
         }
     ],
     "blog": [
         {
-            "id":"bem-vindo",
-            "title":"Inauguração da Gênios!",
-            "banner":"https://scontent.fpvh4-1.fna.fbcdn.net/v/t39.30808-6/293652280_106805118773062_7077565660090533881_n.jpg?stp=dst-jpg_p526x395&_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHJGdSOJDPX63EOgFolprGduFkSJBS5POS4WRIkFLk85HfQ2lGW_fqts_afOsmLEBUUqgzrK0ADkXHbOSqsfd9i&_nc_ohc=lGVx_5ZDj9wAX8zrxkW&_nc_ht=scontent.fpvh4-1.fna&oh=00_AT9Zc_PB_VpnbZNBA7wGaeh-2-cYQ3bHQuyceueaQ43anw&oe=62DCB6EC",
-            "desc":"Olá internauta, estamos felizes em lhe ter aqui!",
-            "date":{
-                "day":"20",
-                "month":"Jul"
+            "id": "bem-vindo",
+            "title": "Inauguração da Gênios!",
+            "banner": "https://cdn.discordapp.com/attachments/778691566168440854/1003442105940725770/unknown.png",
+            "desc": "Olá internauta, estamos felizes em lhe ter aqui!",
+            "date": {
+                "day": "20",
+                "month": "Jul"
             },
-            "innerHTML":"<p><strong>Bem vindo</strong> ao nosso site! Recentemente inauguramos oficialmente a G&ecirc;nios.</p><p>&nbsp;</p><p>Explore o nosso site!</p>"
+            "innerHTML": "<p><strong>Bem vindo</strong> ao nosso site! Recentemente inauguramos oficialmente a G&ecirc;nios.</p><p>&nbsp;</p><p>Explore o nosso site!</p>"
         }
     ],
-    "solutions":[
+    "solutions": [
         {
-            "title":"Identidade Visual",
-            "icon":"img/svg_icon/legal-paper.svg",
-            "image":"../img/about/1.jpg",
-            "desc":"A identidade profissional da sua empresa é tão importante quanto ser excelente em campo, a sua identidade diz ao seu cliente, o quão profissionais e confiáveis sua empresa é."
+            "title": "Identidade Visual",
+            "icon": "img/svg_icon/legal-paper.svg",
+            "image": "../img/about/1.jpg",
+            "desc": "A identidade profissional da sua empresa é tão importante quanto ser excelente em campo, a sua identidade diz ao seu cliente, o quão profissionais e confiáveis sua empresa é."
         },
         {
-            "title":"Programação & Marketing Digital",
-            "icon":"img/svg_icon/case.svg",
-            "image":"../img/about/2.jpg",
-            "desc":"Nós somos programadores e designers, pronto para lhe atender e impulsionar sua empresa."
+            "title": "Programação & Marketing Digital",
+            "icon": "img/svg_icon/case.svg",
+            "image": "../img/about/2.jpg",
+            "desc": "Nós somos programadores e designers, pronto para lhe atender e impulsionar sua empresa."
         },
         {
-            "title":"Design Gráfico",
-            "icon":"img/svg_icon/survey.svg",
-            "image":"../img/about/3.jpg",
-            "desc":"Artes profissionais e gestão de redes para passar credibilidade ao cliente!"
+            "title": "Design Gráfico",
+            "icon": "img/svg_icon/survey.svg",
+            "image": "../img/about/3.jpg",
+            "desc": "Artes profissionais e gestão de redes para passar credibilidade ao cliente!"
         }
     ],
-    "aboutItems":[],
-    "aboutSlides":[
+    "aboutItems": [],
+    "aboutSlides": [
         {
-            "title":"Materiais Gráficos",
-            "desc":"Entregas em AI, CDR, PNG, PDF, e qualquer outro formato da escolha do cliente"
+            "title": "Materiais Gráficos",
+            "desc": "Entregas em AI, CDR, PNG, PDF, e qualquer outro formato da escolha do cliente"
         },
         {
-            "title":"Tecnologias de Anúncio",
-            "desc":"Google Ads, Meta Ads (Facebook, Instagram) e parceiros"
+            "title": "Tecnologias de Anúncio",
+            "desc": "Google Ads, Meta Ads (Facebook, Instagram) e parceiros"
         },
         {
-            "title":"Tecnologias de Desenvolvimento",
-            "desc":"Express, Firebase, Nodejs, React, React Native, EJS e outros"
+            "title": "Tecnologias de Desenvolvimento",
+            "desc": "Express, Firebase, Nodejs, React, React Native, EJS e outros"
         },
         {
-            "title":"Tecnologias de Design e Manipulação de Mídia",
-            "desc":"Photoshop, CorelDRAW, Adobe After Effects, Adobe Ilustrator, Cinema 4d e outros"
+            "title": "Tecnologias de Design e Manipulação de Mídia",
+            "desc": "Photoshop, CorelDRAW, Adobe After Effects, Adobe Ilustrator, Cinema 4d e outros"
         },
         {
-            "title":"Tecnologias NFC / QRcode",
-            "desc":"NFC será um componente interno/externo no cartão no qual será registrado sua página com dados para que o cliente veja, o QRcode funciona da mesma maneira."
+            "title": "Tecnologias NFC / QRcode",
+            "desc": "NFC será um componente interno/externo no cartão no qual será registrado sua página com dados para que o cliente veja, o QRcode funciona da mesma maneira."
         }
     ],
-    "services":[
+    "services": [
         {
-            "title":"Criação de logotipo",
-            "icon":"",
-            "image":"https://neilpatel.com/wp-content/uploads/2019/07/profissional-em-criacao-de-logomarca.jpeg",
-            "desc":"Sua identidade, original e pronta para o registro de marcas.",
-            "type":"Pagamento Único",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
+            "title": "Criação de logotipo",
+            "icon": "",
+            "image": "https://neilpatel.com/wp-content/uploads/2019/07/profissional-em-criacao-de-logomarca.jpeg",
+            "desc": "Sua identidade, original e pronta para o registro de marcas.",
+            "type": "Pagamento Único",
+            "footer": "Orçamento personalizado",
+            "details": {
+                "description": "Teste",
+                "plansCards": [
+                    {
+                        "head": "Básico",
+                        "value": "R$50 <small class='text-muted'>/ único </small>",
+                        "desc": [
+                            "Refazer logotipo existente",
+                            "Receba a logo em vetor e nos formatos PNG, PDF, CDR."
+                        ]
+                    },
+                    {
+                        "head": "Original",
+                        "desc": [
+                            "Quando se há apenas o nome da empresa",
+                            "Receba a logo em vetor e nos formatos PNG, PDF, CDR."
+                        ],
+                        "value": "R$100 <small class='text-muted'>/ único </small>"
+                    },
+                    {
+                        "head": "Original",
+                        "desc": [
+                            "Quando não há ideia nenhuma, nós criamos para você",
+                            "Receba a logo em vetor e nos formatos PNG, PDF, CDR."
+                        ],
+                        "value": "R$200 <small class='text-muted'>/ único </small>"
+                    }
+                ]
+            }
         },
         {
-            "title":"Postagens para Redes Sociais",
-            "icon":"",
-            "image":"https://www.sunsetweb.com.br/img/posts/postagens/20180608152643057/800/152643080620181197.jpg",
-            "desc":"Flyers, Banners, Posts e mais!",
-            "type":"Pagamento Único",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
+            "title": "Gestão de Redes Sociais",
+            "icon": "",
+            "image": "https://hotmart.com/media/2018/01/BLOG_boa-gestao-de-redes-sociais.png",
+            "desc": "Postagens semanais personalizadas que cabem no seu bolso e configurações.",
+            "type": "Pagamento por mês",
+            "footer": "Orçamento personalizado",
+            "details": {
+                "plansCards": [
+                    {
+                        "head": "Básico",
+                        "desc": [
+                            "2 postagens por semana",
+                            "Anúncios no Meta",
+                            "Leve alcance"
+                        ],
+                        "value": "R$320 <small class='text-muted'>/ mês </small>"
+                    },
+                    {
+                        "head": "Intermediário",
+                        "desc": [
+                            "4 postagens por semana",
+                            "Anúncios no Meta",
+                            "Configuração de páginas",
+                            "Maior alcance"
+                        ],
+                        "value": "R$750 <small class='text-muted'>/ mês </small>"
+                    },
+                    {
+                        "head": "Avançado",
+                        "desc": [
+                            "5 posts por semana",
+                            "Anúncios no Meta e Google ADS",
+                            "Configurações de páginas",
+                            "Alcance em super escala"
+                        ],
+                        "value": "R$1.100 <small class='text-muted'>/ mês </small>"
+                    }
+                ]
+            }
         },
         {
-            "title":"Gestão de Redes Sociais",
-            "icon":"",
-            "image":"https://hotmart.com/media/2018/01/BLOG_boa-gestao-de-redes-sociais.png",
-            "desc":"Postagens semanais personalizadas que cabem no seu bolso e configurações.",
-            "type":"Pagamento por mês",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
+            "title": "Fachadas, outdoors, banners e mais",
+            "icon": "",
+            "image": "",
+            "desc": "Todos os tipos de trabalhos gráficos disponíveis",
+            "type": "Pagamento Único",
+            "footer": "Orçamento personalizado",
+            "details": {
+                "plansCards": [
+                    {
+                        "head": "Padrão para todos",
+                        "desc": [
+                            "Valor unitário",
+                            "Entrega em PDF, CDR ou qualquer formato solicitado."
+                        ],
+                        "value": "R$50 <small class='text-muted'>/ único </small>"
+                    }
+                ]
+            }
         },
         {
-            "title":"Fachadas, outdoors, banners e mais",
-            "icon":"",
-            "image":"",
-            "desc":"Todos os tipos de trabalhos gráficos disponíveis",
-            "type":"Pagamento Único",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
+            "title": "Desenvolvimento de BOTs",
+            "icon": "",
+            "image": "https://itforum.com.br/wp-content/uploads/2018/02/ai_chatbot-1.jpg",
+            "desc": "Desenvolvimento de BOTs para WhatsApp, Instagram, Telegram, Discord e muito mais!",
+            "type": "Pagamento Único",
+            "footer": "Orçamento personalizado",
+            "details": {
+                "plansCards": [
+                    {
+                        "head": "Entre em contato para realizar um orçamento com base na sua necessidade!",
+                        "desc": [
+                            "Sem informações"
+                        ],
+                        "value": "Entre em contato <small class='text-muted'>/ único </small>"
+                    }
+                ]
+            }
         },
         {
-            "title":"Desenvolvimento de BOTs",
-            "icon":"",
-            "image":"https://itforum.com.br/wp-content/uploads/2018/02/ai_chatbot-1.jpg",
-            "desc":"Desenvolvimento de BOTs para WhatsApp, Instagram, Telegram, Discord e muito mais!",
-            "type":"Pagamento Único",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
+            "title": "Desenvolvimento de sites",
+            "icon": "",
+            "image": "https://novonegocio.com.br/wp-content/uploads/2015/04/desenvolvimento_de_sites.jpg",
+            "desc": "Diversidade, com as funções que você deseja, desenvolvido por programadores que utilizam código.",
+            "type": "Pagamento Único + Manutenção & Host Mensal ",
+            "footer": "Orçamento personalizado",
+            "details": {
+                "plansCards": [
+                    {
+                        "head": "Entre em contato para realizar um orçamento com base na sua necessidade!",
+                        "desc": [
+                            "Sem informações"
+                        ],
+                        "value": "Entre em contato <small class='text-muted'>/ único </small>"
+                    }
+                ]
+            }
         },
         {
-            "title":"Desenvolvimento de sites",
-            "icon":"",
-            "image":"https://novonegocio.com.br/wp-content/uploads/2015/04/desenvolvimento_de_sites.jpg",
-            "desc":"Diversidade, com as funções que você deseja, desenvolvido por programadores que utilizam código.",
-            "type":"Pagamento Único + Manutenção & Host Mensal ",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
-        },
-        {
-            "title":"Desenvolvimento de APPs",
-            "icon":"",
-            "image":"https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2016/04/escola-brasileira-de-games-desenvolvimento-de-apps-ferramentas.jpg",
-            "desc":"Seu app, do seu jeito, por profissionais experientes.",
-            "type":"Pagamento Único",
-            "footer":"Orçamento personalizado",
-            "plans": [{}]
+            "title": "Desenvolvimento de APPs",
+            "icon": "",
+            "image": "https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2016/04/escola-brasileira-de-games-desenvolvimento-de-apps-ferramentas.jpg",
+            "desc": "Seu app, do seu jeito, por profissionais experientes.",
+            "type": "Pagamento Único",
+            "footer": "Orçamento personalizado",
+            "details": {
+                "plansCards": [
+                    {
+                        "head": "Entre em contato para realizar um orçamento com base na sua necessidade!",
+                        "desc": [
+                            "Sem informações"
+                        ],
+                        "value": "Entre em contato <small class='text-muted'>/ único </small>"
+                    }
+                ]
+            }
         }
     ]
 }

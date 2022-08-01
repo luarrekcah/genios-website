@@ -14,4 +14,18 @@ router.get("/", (req, res) => {
     res.render("pages/services", data);
 });
 
+router.get("/:id", (req, res) => {
+  const service = dbData.services.find((item) => item.title === req.params.id);
+  const data = {
+    dbData,
+    service,
+    og: {
+      title: "Serviço",
+      desc: "Descrição detalhada do serviço",
+      banner: "",
+    },
+  }; 
+  res.render("pages/services/details", data);
+});
+
 module.exports = router;
