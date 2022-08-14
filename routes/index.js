@@ -21,4 +21,28 @@ router.get("/sitemap.xml", (req, res, next) => {
   res.send(xml);
 });
 
+router.get("/pop", (req, res) => {
+  const data = {
+    dbData,
+    og: {
+      title: "Política de Privacidade",
+      desc: "Termos importantes sobre a sua privacidade!",
+      banner: "",
+    },
+  }; 
+  res.render("pages/terms/pop", data);
+});
+
+router.get("/tos", (req, res) => {
+  const data = {
+    dbData,
+    og: {
+      title: "Termos de Uso e Serviço",
+      desc: "Termos importantes sobre uso e serviços!",
+      banner: "",
+    },
+  }; 
+  res.render("pages/terms/tos", data);
+});
+
 module.exports = router;
