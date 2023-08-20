@@ -1,6 +1,6 @@
 {
     "basicInfos": {
-        "email": "genios.publicidade@gmail.com ",
+        "email": "genios.publicidade@gmail.com",
         "phone": "+55 68 99222-8746",
         "facebook": "https://fb.me/agenciagenios",
         "whatsapp": "https://wa.me/+556892228746",
@@ -23,75 +23,92 @@
                     "href": "/contato"
                 }
             ]
+        },
+        {
+            "title": "Social Media",
+            "description": "Instagram parado? Nunca mais, faça sua empresa aparecer com nossa criação de conteúdo e boost em perfil!",
+            "image": "../img/banner/banner2.jpg",
+            "buttons": [
+                {
+                    "icon": "tools",
+                    "title": "Nossos Serviços",
+                    "href": "/servicos"
+                },
+                {
+                    "icon": "group",
+                    "title": "Entrar em Contato",
+                    "href": "/contato"
+                }
+            ]
         }
     ],
     "counters": [
         {
             "title": "Projetos Totais",
-            "value": "622"
+            "value": "1356"
         },
         {
             "title": "Clientes Satisfeitos",
-            "value": "256"
+            "value": "328"
         },
         {
             "title": "Xícaras de Café",
-            "value": "1552"
+            "value": "4523"
         }
     ],
     "portfolio": [
         {
             "id": "melhor-pizza",
             "title": "A Melhor Pizza do Acre",
-            "desc": "Descrição",
+            "desc": "Arte para lanchonete",
             "image": "img/gallery/1.jpg"
         },
         {
             "id": "artesanal-simples",
             "title": "Artesanal Simplê",
-            "desc": "Descrição",
+            "desc": "Arte para lanchonete",
             "image": "img/gallery/2.jpg"
         },
         {
             "id": "sabado-carnaval",
             "title": "Sábado de Carnaval",
-            "desc": "Descrição",
+            "desc": "Evento",
             "image": "img/gallery/3.jpg"
         },
         {
             "id": "camisa-lapeste-esports",
             "title": "Camisa E-Sports Lapeste",
-            "desc": "Descrição",
+            "desc": "Fardamento lapeste",
             "image": "img/gallery/4.jpg"
         },
         {
             "id": "dia-do-rock-centralnet",
             "title": "Dia do Rock Centralnet",
-            "desc": "Descrição",
+            "desc": "Dia comemorativo",
             "image": "img/gallery/5.jpg"
         },
         {
             "id": "camiseta-genios",
             "title": "Camiseta Gênios",
-            "desc": "Descrição",
+            "desc": "Camisa exemplar",
             "image": "img/gallery/6.jpg"
         },
         {
             "id": "viver-bem",
             "title": "Viver Bem",
-            "desc": "Descrição",
+            "desc": "Banner",
             "image": "img/gallery/7.jpg"
         },
         {
             "id": "logo-vereador-belmont",
             "title": "Logo Vereador Belmont",
-            "desc": "Descrição",
+            "desc": "Identidade visual",
             "image": "img/gallery/prévia-logo.png"
         },
         {
             "id": "post-camisa-raifas",
             "title": "Raifa's Propaganda Camisetas",
-            "desc": "Descrição",
+            "desc": "Propaganda",
             "image": "img/gallery/raifas-post-1.jpg"
         }
     ],
