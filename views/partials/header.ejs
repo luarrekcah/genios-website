@@ -1,12 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="pt-BR">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--LINK CARDS-->
     <title><%= og.title %> - Agência Gênios</title>
-    <meta name="description" content="<%= og.desc %>">
+    <meta name="description" content="<%= og.desc %>" />
     <meta property="og:title" content="<%= og.title %>" />
     <meta property="og:type" content="<%= og.type %>" />
     <meta property="og:description" content="<%= og.desc %>" />
@@ -19,105 +19,139 @@
     <meta name="twitter:description" content="<%= og.desc %>" />
     <meta name="twitter:image" content="<%= og.image %>" />
     <!--LINK CARDS-->
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/css/magnific-popup.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/themify-icons.css">
-    <link rel="stylesheet" href="/css/nice-select.css">
-    <link rel="stylesheet" href="/css/flaticon.css">
-    <link rel="stylesheet" href="/css/gijgo.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/slick.css">
-    <link rel="stylesheet" href="/css/slicknav.css">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/themify-icons.css" />
+    <link rel="stylesheet" href="/css/nice-select.css" />
+    <link rel="stylesheet" href="/css/flaticon.css" />
+    <link rel="stylesheet" href="/css/gijgo.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <link rel="stylesheet" href="/css/slicknav.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div id="loading">
-        <img id="loading-image" src="/img/logo.png" loading="lazy" alt="Carregando" />
-      </div>
+      <img
+        id="loading-image"
+        src="/img/logo.png"
+        loading="lazy"
+        alt="Carregando"
+      />
+    </div>
     <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
     <header>
-        <div class="header-area ">
-            <div class="header-top_area d-none d-lg-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6 ">
-                            <div class="social_media_links">
-                                <a href="<%=dbData.basicInfos.facebook%>">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="<%=dbData.basicInfos.instagram%>">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6">
-                            <div class="short_contact_list">
-                                <ul>
-                                    <li><a href="mailto:contato@agenciagenios.com"> <i class="fa fa-envelope"></i>contato@agenciagenios.com</a></li>
-                                    <li><a href="https://wa.me/+5568992228746"> <i class="fa fa-phone"></i> +55 68 99222-8746 </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+      <div class="header-area">
+        <div class="header-top_area d-none d-lg-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-md-6">
+                <div class="social_media_links">
+                  <a href="<%=dbData.basicInfos.facebook%>">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="<%=dbData.basicInfos.instagram%>">
+                    <i class="fa fa-instagram"></i>
+                  </a>
                 </div>
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <div class="short_contact_list">
+                  <ul>
+                    <li>
+                      <a href="mailto:contato@agenciagenios.com">
+                        <i class="fa fa-envelope"></i
+                        >contato@agenciagenios.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://wa.me/+5568992228746">
+                        <i class="fa fa-phone"></i> +55 68 99222-8746
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-2">
-                                <div class="logo">
-                                    <a href="/">
-                                        <img src="/img/logo.png" width="150" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a class="active" href="/">home</a></li>
-                                            <li><a href="/portfolio">Portfólio</a></li>
-                                            <!--<li><a href="/sobre">Sobre</a></li>-->
-                                            <!--<li><a href="/servicos">Serviços</a></li>-->
-                                            <!--<li><a href="/blog">Blog</a></li>-->
-                                            <li><a href="#">Termos <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                   <!-- <li><a href="/contrato">Contrato</a></li>-->
-                                                    <li><a href="/tos">Termos de Uso e Serviço</a></li>
-                                                    <li><a href="/pop">Política de Privacidade</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="/contato">Contato</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="Appointment">
-                                    <!--<div class="search_button">
+          </div>
+        </div>
+        <div id="sticky-header" class="main-header-area">
+          <div class="container">
+            <div class="header_bottom_border">
+              <div class="row align-items-center">
+                <div class="col-xl-3 col-lg-2">
+                  <div class="logo">
+                    <a href="/">
+                      <img src="/img/logo.png" width="150" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                  <div class="main-menu d-none d-lg-block">
+                    <nav>
+                      <ul id="navigation">
+                        <li><a class="active" href="/">home</a></li>
+                        <li><a href="/portfolio">Portfólio</a></li>
+                        <!--<li><a href="/sobre">Sobre</a></li>-->
+                        <!--<li><a href="/servicos">Serviços</a></li>-->
+                        <!--<li><a href="/blog">Blog</a></li>-->
+                        <li>
+                          <a href="#">Termos <i class="ti-angle-down"></i></a>
+                          <ul class="submenu">
+                            <!-- <li><a href="/contrato">Contrato</a></li>-->
+                            <li><a href="/tos">Termos de Uso e Serviço</a></li>
+                            <li><a href="/pop">Política de Privacidade</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Documentos <i class="ti-angle-down"></i
+                          ></a>
+                          <ul class="submenu">
+                            <li>
+                              <a
+                                href="https://docs.google.com/document/d/e/2PACX-1vRF6QucSs_odS4Wzw15xPwsskcI30aRb44sv6c7Gs784x-XUmoW9mm-JK5l2QKXG8g9JkTxnX-g5wj9/pub"
+                                >Tabela de Preços</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="/contato">Contato</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                  <div class="Appointment">
+                    <!--<div class="search_button">
                                         <a href="#">
                                             <i class="ti-search"></i>
                                         </a>
                                     </div>-->
-                                    <!--
+                    <!--
                                     <div class="book_btn d-none d-lg-block">
                                         <a class="popup-with-form" href="#test-form">Orçamento</a>
                                     </div>-->
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </header>
+  </body>
+</html>
